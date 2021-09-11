@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+::selection{
+  color: #fff;
+  background: #215f00;
+}
+header{
+width:100%;
+height:100vh;
+background-image: url('..public/logo-universidad-privada-del-estado-de-mexico.png');
+background-size:cover;
+background-position: center;
+}
+.nav{
+width:100%;
+position:fixed;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:25px;
+transition:all 0.5s ease;
+}
+.logo{
+font-size:25px;
+color:#000;
+font-weight:100;
+}
+.menu{
+display:flex;
+
+}
+.menu li{
+
+list-style: none;
+margin:10px;
+}
+.menu li a{
+color:#fff;
+text-decoration: none;
+font-weight:bold;
+transition:all 0.5s ease;
+}
+.menu li a:hover{
+padding:5px 10px;
+background:#fff;
+color:#000;
+border-radius: 15px;
+
+}
+
+body{
+  display:flex;
+     
+background-image: url("/images/logo-universidad-privada-del-estado-de-mexico.png");
+
+
+ background: #215f00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #e4e4d9, #215f00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #e4e4d9, #215f00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 0 20px;
+}
+.wrapper{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper .cart-nav{
+  position: absolute;
+  right: 0;
+  top: -35%;
+  width: 130px;
+  background: #fff;
+  padding: 13px 15px;
+  border-radius: 3px;
+  display: flex;
+  cursor: pointer;
+  justify-content: space-evenly;
+  box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.15);
+}
+.cart-nav .icon{
+  color: #215f00;
+}
+.cart-nav .icon i{
+  font-size: 20px;
+}
+.cart-nav .icon span{
+  font-weight: 500;
+}
+.cart-nav .item-count{
+  font-size: 15px;
+  height: 23px;
+  width: 23px;
+  color: #215f00;
+  background: #215f00;
+  text-align: center;
+  line-height: 22px;
+  border: 1px solid#215f00;
+  border-radius: 50%;
+}
+.wrapper .card{
+  position: relative;
+  background: #fff;
+  border-radius: 3px;
+  width: calc(33% - 13px);
+  overflow: hidden;
+margin-left:10px;
+margin-top:-400px;
+  box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.15);
+}
+.wrapper .card img{
+ 
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+.card:hover img{
+  transform: scale(1.1);
+}
+.wrapper .card .content{
+margin-top:-800px;
+  position: absolute;
+  width: 100%;
+  bottom: -50%;
+  background: #fff;
+  padding: 10px 20px 22px 20px;
+  box-shadow: 0px -3px 10px 0px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+.wrapper .card:hover .content{
+  bottom: 0;
+}
+.card .content .row,
+.content .buttons{
+  display: flex;
+  justify-content: space-between;
+}
+.content .row .details span{
+  font-size: 22px;
+  font-weight: 500;
+}
+.content .row .details p{
+  color: #333;
+  font-size: 17px;
+  font-weight: 400;
+}
+.content .row .price{
+  color: #215f00;
+  font-size: 25px;
+  font-weight: 600;
+}
+.content .buttons{
+  margin-top: 20px;
+}
+.content .buttons button{
+  width: 100%;
+  padding: 9px 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 3px;
+  border: 2px solid #215f00;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+.buttons button:first-child{
+  color: #215f00;
+  margin-right: 10px;
+  background: #fff;
+}
+button:first-child:hover{
+  color: #fff;
+  background: #215f00;
+}
+.buttons button:last-child{
+  color: #fff;
+  margin-left: 10px;
+  background: #215f00;
+}
+button:last-child:hover{
+  background: #215f00;
+  border-color: #215f00;
+}
+.scrol{
+height:100px;
+}
+.nave.active{
+
+background:#fff;
+padding:15px;
+}
+
+.nave.active.logo,
+.nav.active.menu  a{
+color:#000;
+}
+.nav.active a:hover{
+background:#000;
+color:#fff;
+}
