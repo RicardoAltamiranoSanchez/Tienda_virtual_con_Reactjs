@@ -115,11 +115,14 @@ return (
           </div>
         </div>
       </div>
+
+
 </div>
 
 
-  </div>
 
+  </div>
+<footer>Desarrollador &copy; Ricardo Altamirano Sanchez </footer>
     
 
    
