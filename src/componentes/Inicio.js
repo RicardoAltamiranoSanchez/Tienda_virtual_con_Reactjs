@@ -22,6 +22,7 @@ return (
 <header>
 
 <nav class="nav">
+<div class="log">UPEM 2021</div>
 <ul class="menu">
 <li><a href="#">Inicio</a></li>
 

@@ -1,3 +1,10 @@
+const nav=document.querySelector('.nav');
+window.addEventListener('scroll',function(){
+
+nav.classList.toggle('active',window.scrollY >0)
+
+
+})
 let count = 0;
 //if add to cart btn clicked
 $('.cart-btn').on('click', function (){
